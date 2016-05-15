@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "First Post"
+date:   2016-05-13 22:25:00 -0500
+categories: misc
+---
+This is the first post that I'm making. 
+
+I plan to keep this blog anonymous. My goal for this blog is: to learn jekyll, to improve my html/css in the styling of the blog, and to develop a writing habit, making note and exploring whatever captures my interest or draws my agitation. 
+
+I've also been prompted to start a blog because I currently have no outlet for venting life's frustrations. Hopefully, by putting out an honest and thoughtful account of the day-to-day vagaries, I will be granted some measure of tranquility.
