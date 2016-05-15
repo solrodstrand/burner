@@ -2,12 +2,18 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-
-
 @charset "utf-8";
-
 @import "../_sass/base";
 
+#wrapper{
+  padding: 50px 10px;
+  max-width: 920px; 
+  margin: 0 auto;
+
+  @include media-query($screen-tablet){
+    padding: 50px 20px;
+  }
+}
 
 .post-content {
     font-size: 21px;

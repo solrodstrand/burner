@@ -3,16 +3,19 @@
 /**
  *  Variables & Constants
  */
+
+
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
-
-
-
 
 /**
  *  Mixin
  */
-
+@mixin media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
 
 *,*:before,*:after{
   box-sizing: border-box;
